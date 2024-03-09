@@ -1,8 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .titre {
     color: rgb(255, 255, 255);
@@ -14,7 +12,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    animation : appeartitre 1s both;
+    animation: appeartitre 1s both;
 }
 
 .titre {
@@ -31,8 +29,6 @@ body {
         opacity: 1;
     }
 }
-
-
 
 .soustitre {
     color: rgb(255, 255, 255);
@@ -63,93 +59,6 @@ body {
     }
 }
 
-
-
-
-.idea {
-    color: rgb(0, 0, 0);
-    width: 400px;
-    padding: 1px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-.idea1 {
-    color: rgb(0, 0, 0);
-    width: 650px;
-    padding: 1px;
-    position: absolute;
-    top: 125%;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.idea2 {
-    color: rgb(0, 0, 0);
-    width: 530px;
-    padding: 1px;
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-.conteneur {
-    position: relative;
-    width: 1400px;
-    height: 1300px;
-}
-
-.titre1 {
-    background-color: rgb(235, 235, 235);
-    position: absolute;
-    width: 1840px;
-    top: 500px; 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.div1 {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 540px;
-    position: absolute;
-    top: 168%;
-    left: 51%;
-    transform: translate(-50%, -50%);
-}
-
-.div2 {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 540px;
-    position: absolute;
-    top: 173%;
-    left: 54%;
-    transform: translate(-50%, -50%);
-}
-
-
-.div3 {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 540px;
-    position: absolute;
-    top: 270%;
-    left: 58%;
-    transform: translate(-50%, -50%);
-}
-
-
-
 .img2 {
     background-color: rgb(235, 235, 235);
     position: absolute;
@@ -157,25 +66,4 @@ body {
     top: 500px; 
     left: 570;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.div4 {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 540px;
-    position: absolute;
-    top: 331%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-}
-
-.div5 {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    width: 540px;
-    position: absolute;
-    top: 336%;
-    left: 54%;
-    transform: translate(-50%, -50%);
 }
