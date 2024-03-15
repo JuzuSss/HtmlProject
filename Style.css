@@ -6,39 +6,111 @@ body {
 
 
 
-.barreOutils {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-    width: 200%; /* Ajustez cette valeur pour changer la largeur */
-    top : 40px;
+#menu {
+	background: #000000;
+	height: 45px;
+	border-radius: 10px;
+	margin-top: 20px;
+    z-index: 999; 
+	position: relative; 
 }
 
-
-.barreOutils li {
-    float: left;
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+#menu ul {
+	width: 100%;
+	text-align: center;
+}
+#menu li {
+	display: inline-block;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 45px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu a.dropdown-arrow:after {
+	content: "\25BF";
+	margin-left: 5px;
+}
+#menu li a:hover {
+	color: #0099CC;
+	background: #F2F2F2;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 45px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 45px;
+	text-align: center;
+	position: absolute;
+	left: 35px
+}
+#menu label:before {
+	font-size: 1.6em;
+	color: #FFFFFF;
+	content: "\2261"; 
+	margin-left: 20px;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #444444;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+#menu ul.sub-menus li {
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+#menu ul.sub-menus a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #F2F2F2;
+	color: #444444;
+}
+@media screen and (max-width: 800px){
+	#menu {position:relative}
+	#menu ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:#FFFFFF}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
 }
 
-.barreOutils li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.barreOutils li a:hover {
-    background-color: #111;
-}
 
 
 .img1{
     background-color: rgb(235, 235, 235);
     position: absolute;
-    width: 1900px;
-    top: 60px; 
+    width: 5000px;
+    top: 0px; 
     left: 0;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
@@ -57,7 +129,7 @@ body {
     padding: 1px;
     position: absolute;
     top: 30%;
-    left: 58%;
+    left: 55%;
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: appeartitre 1s both;
@@ -83,7 +155,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 35%;
-    left: 53%;
+    left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: appearsoustitre 1s both;
@@ -268,169 +340,20 @@ button {
     margin-top: 20px; 
   }
   
-  #prevButton:hover,
-  :focus {
-    color: #ffffff;
-    background: #008cff;
-    border: 1px solid #008cff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
-      0 0 100px #008cff;
-    margin-top: 20px
-    
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bubble {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: inset 0 0 25px rgba (255, 255, 255, 0.25);
-    animation: animate_4010 8s ease-in-out infinite;
+#prevButton:hover,
+#prevButton:focus
+{
+      color: #ffffff;
+      background: #008cff;
+      border: 1px solid #008cff;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+      box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+        0 0 100px #008cff;
+      margin-top: 20px;
   }
   
-  .bubble:nth-child(2) {
-    position: relative;
-    zoom: 0.45;
-    left: -10px;
-    top: -100px;
-    animation-delay: -4s;
-  }
-  
-  .bubble:nth-child(3) {
-    position: relative;
-    zoom: 0.45;
-    right: -80px;
-    top: -300px;
-    animation-delay: -6s;
-  }
-  
-  .bubble:nth-child(4) {
-    position: relative;
-    zoom: 0.35;
-    left: -120px;
-    bottom: -200px;
-    animation-delay: -3s;
-  }
-  
-  .bubble:nth-child(5) {
-    position: relative;
-    zoom: 0.5;
-    left: 0px;
-    top: 200px;
-    animation-delay: -5s;
-  }
-  
-  @keyframes animate_4010 {
-    0%,100% {
-      transform: translateY(-20px);
-    }
-  
-    50% {
-      transform: translateY(20px);
-    }
-  }
 
-  .bubble::before {
-    content: '';
-    position: absolute;
-    top: 50px;
-    left: 45px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background: #fff;
-    z-index: 10;
-    filter: blur(2px);
-  }
-  
-  .bubble::after {
-    content: '';
-    position: absolute;
-    top: 80px;
-    left: 80px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #fff;
-    z-index: 10;
-    filter: blur(2px);
-  }
-  
-  .bubble span {
-    position: absolute;
-    border-radius: 50%;
-  }
-  
-  .bubble span:nth-child(1) {
-    inset: 10px;
-    border-left: 15px solid #0fb4ff;
-    filter: blur(8px);
-  }
-  
-  .bubble span:nth-child(2) {
-    inset: 10px;
-    border-right: 15px solid #ff4484;
-    filter: blur(8px);
-  }
-  
-  .bubble span:nth-child(3) {
-    inset: 10px;
-    border-top: 15px solid #ffeb3b;
-    filter: blur(8px);
-  }
-  
-  .bubble span:nth-child(4) {
-    inset: 30px;
-    border-left: 15px solid #ff4484;
-    filter: blur(12px);
-  }
-  
-  .bubble span:nth-child(5) {
-    inset: 10px;
-    border-bottom: 10px solid #fff;
-    filter: blur(8px);
-    transform: rotate(330deg);
-  }
+
+
+
+

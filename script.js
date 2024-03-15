@@ -1,3 +1,11 @@
+function updatemenu() {
+  if (document.getElementById('responsive-menu').checked == true) {
+    document.getElementById('menu').style.borderBottomRightRadius = '0';
+    document.getElementById('menu').style.borderBottomLeftRadius = '0';
+  }else{
+    document.getElementById('menu').style.borderRadius = '10px';
+  }
+}
 
 
 function scrollFunction() {
@@ -47,7 +55,7 @@ function scrollFunction() {
         currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
         document.getElementById("carouselImage").src = images[currentIndex];
         document.getElementById("carouselImage").style.opacity = 1; /* Rend l'image visible après le changement */
-    }, 200); /* Attend 200 millisecondes avant de changer l'image et de rendre l'image visible */
+    }, 500); /* Attend 200 millisecondes avant de changer l'image et de rendre l'image visible */
 });
 
 document.getElementById("nextButton").addEventListener("click", function() {
