@@ -16,6 +16,7 @@ body {
   }
 }
 
+
 .background span {
   width: 1vmin;
   height: 1vmin;
@@ -595,7 +596,7 @@ body {
     flex-direction: column;
     gap: 0.5em;
     margin-top: 20%;
-    margin-left: 47%;
+    margin-left: 45%;
   }
 
   @keyframes fadeIn {
