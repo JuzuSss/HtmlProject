@@ -2,6 +2,7 @@ body {
   background-color: #000;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  overflow: auto;
 }
 
 
@@ -133,13 +134,15 @@ body {
 
 .background {
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     background: #000000;
     overflow: hidden;
 }
+
+
 
 .background span {
     width: 1vmin;
@@ -646,4 +649,117 @@ body {
 	animation: appeartitre 2s both;
 	animation-delay: 2.3s;
 	z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+.containertitre2 {
+    height: 100px; 
+}
+
+.contenttitre2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    position: absolute;
+    top: 100%; 
+    left: 46.4%;
+}
+
+.hidden-texttitre2 {
+    opacity: 0; 
+    transition: opacity 4s ease; 
+}
+
+.visibletitre2 {
+    opacity: 1; 
+}
+
+
+
+
+
+
+
+
+.containerhtml {
+    height: 100px; 
+}
+
+.contenthtml {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    position: absolute;
+    top: 120%; 
+    left: 18%;
+}
+
+.hidden-texthtml {
+    opacity: 0; 
+    transition: opacity 4s ease; 
+}
+
+.visiblehtml {
+    opacity: 1; 
+}
+
+
+
+.containersite1, .containersite2, .containersite3 {
+    height: 100px; 
+}
+
+.contentsite1 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    position: absolute;
+    top: 130%; 
+    left: 25%;
+}
+
+.contentsite2{
+	color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    position: absolute;
+    top: 155%; 
+    left: 25%;
+}
+
+.contentsite3{
+	color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    position: absolute;
+    top: 180%; 
+    left: 25%;
+}
+
+
+.hidden-textsite1, .hidden-textsite2, .hidden-textsite3 {
+    opacity: 0; 
+    transition: opacity 4s ease; 
+}
+
+.visiblesite1, .visiblesite2, .visiblesite3 {
+    opacity: 1; 
+}
+
+
+.hidden-textlink1, .hidden-textlink2, .hidden-textlink3, .hidden-textlink4, .hidden-textlink5, .hidden-textlink6, .hidden-textlink7, .hidden-textlink8, .hidden-textlink9 {
+    opacity: 0; 
+    transition: opacity 4s ease; 
+}
+
+
+.visiblesitelink1, .visiblesitelink2, .visiblesitelink3, .visiblesitelink4, .visiblesitelink5, .visiblesitelink6, .visiblesitelink7, .visiblesitelink8, .visiblesitelink9 {
+    opacity: 1; 
 }

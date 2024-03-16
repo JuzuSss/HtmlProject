@@ -253,7 +253,7 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: appearsoustitre 1s both;
-    animation-delay: 1s; /* Une seule déclaration pour l'animation-delay */
+    animation-delay: 1s;
 }
 
 @keyframes appearsoustitre {
