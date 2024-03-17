@@ -293,7 +293,7 @@ body {
     padding: 1px;
     position: absolute;
     top: 117%;
-    left: 42%;
+    left: 38.7%;
 }
 
 .hidden-text {
@@ -307,12 +307,13 @@ body {
 
 
 .barreOutils {
-    width: 100%; /* Changez cette valeur */
+    width: 100%;
 }
 
 .img1, .img2 {
-    width: 100%; /* Changez cette valeur */
+    width: 100%;
 }
+
 
 
 .container2 {
@@ -325,7 +326,7 @@ body {
     padding: 1px;
     position: absolute;
     top: 127%;
-    left: 47%;
+    left: 43.7%;
 }
 
 .hidden-text2 {
@@ -351,7 +352,7 @@ body {
     padding: 1px;
     position: absolute;
     top: 137%; 
-    left: 45%;
+    left: 41.7%;
 }
 
 .hidden-text3 {
@@ -375,7 +376,7 @@ body {
     padding: 1px;
     position: absolute;
     top: 185%; 
-    left: 45%;
+    left: 42.8%;
 }
 
 .hidden-text4 {
@@ -402,6 +403,7 @@ body {
     display: flex; 
     flex-direction: column; 
     align-items: center; 
+    left: -2.5%;
 
     
 }

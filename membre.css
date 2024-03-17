@@ -5,7 +5,6 @@ body {
 }
 
 
-
 #menu {
 	background: #000000;
 	height: 45px;
@@ -103,3 +102,496 @@ body {
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
+
+
+
+.titre {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 1px;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: appeartitre 1s both;
+    animation-delay: 0.5s;
+	z-index: 999;
+}
+
+
+@keyframes appeartitre {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+
+
+.card {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	perspective: 1000px;
+	box-shadow: 0 0 0 5px #00000080;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	margin-top: 25%;
+	left: 20%;
+	z-index: 999;
+	animation: fadein 2s both;
+	animation-delay: 1s;
+  }
+  
+  .card svg {
+	width: 48px;
+	fill: #333;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #000000;
+	transform: rotateX(-90deg);
+	transform-origin: bottom;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+	transform: rotateX(0deg);
+  }
+  
+  .card__title {
+	margin: 0;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+  }
+  
+  .card:hover svg {
+	scale: 0;
+  }
+  
+  .card__description {
+	margin: 10px 0 0;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 1.4;
+  }
+  
+
+
+  .etienne{
+	width: 100%;
+	height: 200%;
+	animation: fadein 2s both;
+	animation-delay: 1s;
+  }
+
+
+
+
+  
+.card2 {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	perspective: 1000px;
+	box-shadow: 0 0 0 5px #00000080;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	margin-top: 25%;
+	left: 66%;
+	z-index: 999;
+	animation: fadein 2s both;
+	animation-delay: 1s;
+  }
+  
+  .card2 svg {
+	width: 48px;
+	fill: #333;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card2:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #000000;
+	transform: rotateX(-90deg);
+	transform-origin: bottom;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card2:hover .card__content2 {
+	transform: rotateX(0deg);
+  }
+  
+  .card__title2 {
+	margin: 0;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+  }
+  
+  .card2:hover svg {
+	scale: 0;
+  }
+  
+  .card__description2 {
+	margin: 10px 0 0;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 1.4;
+  }
+  
+
+
+  .pierre{
+	width: 100%;
+	height: 200%;
+
+  }
+
+
+
+
+
+    
+.card3 {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	perspective: 1000px;
+	box-shadow: 0 0 0 5px #00000080;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	margin-top: 25%;
+	left: 20%;
+	z-index: 999;
+	animation: fadein 2s both;
+	animation-delay: 1s;
+}
+  
+.card3 svg {
+	width: 48px;
+	fill: #333;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.card3:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+  
+  .card__content3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #000000;
+	transform: rotateX(-90deg);
+	transform-origin: bottom;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card3:hover .card__content3 {
+	transform: rotateX(0deg);
+  }
+  
+  .card__title3 {
+	margin: 0;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+  }
+  
+  .card3:hover svg {
+	scale: 0;
+  }
+  
+  .card__description3 {
+	margin: 10px 0 0;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 1.4;
+  }
+  
+
+
+  .julien{
+	width: 100%;
+	height: 200%;
+  }
+
+
+
+
+
+  .card4 {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	perspective: 1000px;
+	box-shadow: 0 0 0 5px #00000080;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	margin-top: 25%;
+	left: 66%;
+	z-index: 999;
+	animation: fadein 2s both;
+	animation-delay: 1s;
+}
+  
+.card4 svg {
+	width: 48px;
+	fill: #333;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.card4:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+  
+  .card__content4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #000000;
+	transform: rotateX(-90deg);
+	transform-origin: bottom;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card4:hover .card__content4 {
+	transform: rotateX(0deg);
+  }
+  
+  .card__title4 {
+	margin: 0;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+  }
+  
+  .card4:hover svg {
+	scale: 0;
+  }
+  
+  .card__description4 {
+	margin: 10px 0 0;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 1.4;
+  }
+  
+
+
+  .thibault{
+	width: 100%;
+	height: 200%;
+  }
+
+
+
+
+  .card5 {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	background-color: #000000;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	perspective: 1000px;
+	box-shadow: 0 0 0 5px #00000080;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	margin-top: 25%;
+	left: 20%;
+	z-index: 999;
+	animation: fadein 2s both;
+	animation-delay: 1s;
+}
+  
+.card5 svg {
+	width: 48px;
+	fill: #333;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.card5:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+  
+  .card__content5 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #000000;
+	transform: rotateX(-90deg);
+	transform-origin: bottom;
+	transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card5:hover .card__content5 {
+	transform: rotateX(0deg);
+  }
+  
+  .card__title5 {
+	margin: 0;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+  }
+  
+  .card5:hover svg {
+	scale: 0;
+  }
+  
+  .card__description5 {
+	margin: 10px 0 0;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 1.4;
+  }
+  
+
+
+  .louis{
+	width: 100%;
+	height: 200%;
+  }
+
+
+
+  @keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  .fade-in {
+	animation: fadeIn 4s ease-in-out;
+  }
+  
+
+
+
+
+
+
+  .loader {
+	position: relative;
+	display: flex;
+	gap: 0.3em;
+	margin-top: 30%;
+	left: 50%;
+  }
+  
+  .loader::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2em;
+	filter: blur(45px);
+	background-color: #e299ff;
+	background-image: radial-gradient(at 52% 57%, hsla(11,83%,72%,1) 0px, transparent 50%),
+	radial-gradient(at 37% 57%, hsla(175,78%,66%,1) 0px, transparent 50%);
+  }
+  
+  .loader__circle {
+	--size__loader: 0.6em;
+	width: var(--size__loader);
+	height: var(--size__loader);
+	border-radius: 50%;
+	animation: loader__circle__jumping 2s infinite;
+	background-color: #b499ff;
+  }
+  
+  .loader__circle:nth-child(2n) {
+	animation-delay: 300ms;
+	background-color: #e499ff;
+  }
+  
+  .loader__circle:nth-child(3n) {
+	animation-delay: 600ms;
+  }
+  
+  @keyframes loader__circle__jumping {
+	0%, 100% {
+	  transform: translateY(0px);
+	}
+  
+	25% {
+	  transform: translateY(-15px) scale(0.5);
+	}
+  
+	50% {
+	  transform: translateY(0px);
+	}
+  
+	75% {
+	  transform: translateY(5px) scale(0.9);
+	}
+  }
+
+
+

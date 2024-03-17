@@ -44,7 +44,7 @@ function scrollFunction() {
     }
 
 
-    for (var i = 1; i <= 9; i++) {
+    for (var i = 1; i <= 16; i++) {
         var elementLink = document.getElementById("hiddenTextlink" + i);
         var elementPositionLink = elementLink.getBoundingClientRect().top;
 
@@ -54,6 +54,34 @@ function scrollFunction() {
             elementLink.classList.remove("visiblesitelink" + i); 
         }
     }
+
+
+    var elementSite3 = document.getElementById("hiddenTextUnity");
+    var elementPositionSite3 = elementSite3.getBoundingClientRect().top;
+    if (elementPositionSite3 < windowHeight) {
+      elementSite3.classList.add("visibleUnity");
+    } else {
+      elementSite3.classList.remove("visibleUnity");
+    }
+
+
+    var elementSite3 = document.getElementById("hiddenTextsite4");
+    var elementPositionSite3 = elementSite3.getBoundingClientRect().top;
+    if (elementPositionSite3 < windowHeight) {
+      elementSite3.classList.add("visiblesite4");
+    } else {
+      elementSite3.classList.remove("visiblesite4");
+    }
+
+
+    var elementSite3 = document.getElementById("hiddenTextsite5");
+    var elementPositionSite3 = elementSite3.getBoundingClientRect().top;
+    if (elementPositionSite3 < windowHeight) {
+      elementSite3.classList.add("visiblesite5");
+    } else {
+      elementSite3.classList.remove("visiblesite5");
+    }
+
 }
 
 
