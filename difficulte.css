@@ -10,7 +10,7 @@ body {
 	background: #000000;
 	height: 45px;
 	border-radius: 10px;
-	margin-top: 20px; /* Ajoutez cette ligne */
+	margin-top: 20px; 
 }
 
 
@@ -101,4 +101,73 @@ body {
 	#menu input:checked + label {color:#FFFFFF}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
+}
+
+
+
+.container {
+    height: 100px; 
+}
+
+.content {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    position: absolute;
+    top: 28%;
+    left: 46%;
+}
+
+.hidden-text {
+    opacity: 0; 
+    transition: opacity 4s ease; 
+}
+
+.visible {
+    opacity: 1; 
+}
+
+
+
+
+
+.probleme{
+    margin-top: 7%;
+    margin-left: 28%;
+}
+
+.problemehtml{
+    margin-top: 7%;
+    margin-left: 28%;
+}
+
+.containerunity{
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+.containerhtml{
+    margin-top: 18%;
+    margin-left: 25%;
+}
+
+
+.hidden-text0, .hidden-text1, .hidden-text2, .hidden-text3, .hidden-text4, .hidden-text5, .hidden-text6, .hidden-text7, .hidden-text8, .hidden-text9, .hidden-text10, .hidden-text11, .hidden-text12, .hidden-text13, .hidden-text14, .hidden-text15, .hidden-text16, .hidden-text17, .hidden-text18, .hidden-text19, .hidden-text20, .hidden-text21, .hidden-text22 {
+    color: rgb(255, 255, 255);
+    opacity: 0; 
+    transition: opacity 4s ease; 
+    font-family: 'Candara', sans-serif;
+}
+
+.visible0, .visible1, .visible2, .visible3, .visible4, .visible5, .visible6, .visible7, .visible8, .visible9, .visible10, .visible11, .visible12, .visible13, .visible14, .visible15, .visible16, .visible17, .visible18, .visible19, .visible20, .visible21, .visible22 {
+    opacity: 1; 
+}
+
+
+.copyright{
+    color: white;
+    opacity: 1;
+    font-family: 'Candara', sans-serif;
+    margin-left: 48%;
+    margin-top:20%;
 }

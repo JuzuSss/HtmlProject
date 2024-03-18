@@ -227,7 +227,7 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: appeartitre 1s both;
-    animation-delay: 0.5s; /* Une seule déclaration pour l'animation-delay */
+    animation-delay: 0.5s;
 }
 
 @keyframes appeartitre {
