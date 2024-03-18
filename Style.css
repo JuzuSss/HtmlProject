@@ -218,12 +218,12 @@ body {
 
 .titre1 {
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;
     width: 350px;
     padding: 1px;
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 52%;
     transform: translate(-50%, -50%);
     opacity: 0;
     animation: appeartitre 1s both;
@@ -246,7 +246,7 @@ body {
     font-size: 13px; 
     width: 350px;
     padding: 1px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;    
     position: absolute;
     top: 35%;
     left: 50%;
@@ -273,7 +273,7 @@ body {
     width: 1900px;
     top: 1500px; 
     left: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;
     opacity: 0;
     transition: opacity 2s ease-in-out;
 }
@@ -289,7 +289,7 @@ body {
 
 .content {
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;
     padding: 1px;
     position: absolute;
     top: 117%;
@@ -322,11 +322,11 @@ body {
 
 .content2 {
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;
     padding: 1px;
     position: absolute;
     top: 127%;
-    left: 43.7%;
+    left: 42%;
 }
 
 .hidden-text2 {
@@ -348,7 +348,7 @@ body {
 
 .content3 {
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;
     padding: 1px;
     position: absolute;
     top: 137%; 
@@ -372,11 +372,11 @@ body {
 
 .content4 {
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Candara', sans-serif;
     padding: 1px;
     position: absolute;
     top: 185%; 
-    left: 42.8%;
+    left: 45%;
 }
 
 .hidden-text4 {
@@ -392,64 +392,12 @@ body {
 
 
 
-#imageContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 77%;
-    margin-left: 6%;
-    position: relative;
-    z-index: 1;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    left: -2.5%;
-
-    
+  .copyright{
+    color: white;
+    opacity: 1;
+    font-family: 'Candara', sans-serif;
+    margin-left: 48%;
+    margin-top:125%;
 }
-
-#carouselImage {
-    width: 700px;
-    height: 400px;
-    opacity: 0; 
-    transition: opacity 4s; 
-    order:1;
-}
-
-
-
-button {
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #ffffff80;
-    text-shadow: none;
-    background: transparent;
-    cursor: pointer;
-    box-shadow: transparent;
-    border: 1px solid #ffffff80;
-    transition: 0.5s ease;
-    user-select: none;
-    order: 2; 
-    margin-top: 20px; 
-  }
-  
-#prevButton:hover,
-#prevButton:focus
-{
-      color: #ffffff;
-      background: #008cff;
-      border: 1px solid #008cff;
-      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-      box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
-        0 0 100px #008cff;
-      margin-top: 20px;
-  }
-  
-
-
-
 
 

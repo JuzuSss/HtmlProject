@@ -717,3 +717,12 @@ body {
 
 
 
+.copyright{
+    color: white;
+    opacity: 1;
+    font-family: 'Candara', sans-serif;
+    margin-left: 48%;
+    margin-top:85%;
+    z-index: 1003;
+    position : relative;
+}

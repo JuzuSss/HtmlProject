@@ -46,27 +46,6 @@ function scrollFunction() {
   }
 
   
-  var images = ["Cyberpunk.jpg", "Japon.jpg", "Viking.jpg", "Pirate.jpg"];
-  var currentIndex = 0;
-
-  document.getElementById("prevButton").addEventListener("click", function() {
-    document.getElementById("carouselImage").style.opacity = 0;
-    setTimeout(function() {
-        currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
-        document.getElementById("carouselImage").src = images[currentIndex];
-        document.getElementById("carouselImage").style.opacity = 1; 
-    }, 500); 
-});
-
-document.getElementById("nextButton").addEventListener("click", function() {
-    document.getElementById("carouselImage").style.opacity = 0;
-    setTimeout(function() {
-        currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
-        document.getElementById("carouselImage").src = images[currentIndex];
-        document.getElementById("carouselImage").style.opacity = 1; 
-    }, 200); 
-});
-
 
 
 }
