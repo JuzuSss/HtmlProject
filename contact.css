@@ -495,6 +495,7 @@ body {
 	border-radius: 10px;
 	margin-top: 20px; 
   animation: fadein 2s; 
+  background-color: transparent;
 }
 #menu ul, #menu li {
 	margin: 0 auto;

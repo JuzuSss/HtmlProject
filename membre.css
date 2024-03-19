@@ -12,6 +12,7 @@ body {
 	margin-top: 20px;
     z-index: 999; 
 	position: relative; 
+	background-color: transparent;
 }
 
 #menu ul, #menu li {
