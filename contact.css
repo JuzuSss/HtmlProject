@@ -3,7 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   animation: fadein 2s; 
-
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 
@@ -730,56 +731,8 @@ body {
     color: white;
     opacity: 1;
     font-family: 'Candara', sans-serif;
-    margin-left: 48%;
-    margin-top:85%;
+    margin-left: 47%;
+    margin-top:18%;
     z-index: 1003;
     position : relative;
-}  .copyright{
-  color: white;
-  opacity: 1;
-  font-family: 'Candara', sans-serif;
-  margin-left: 48%;
-  margin-top:85%;
-  z-index: 1003;
-  position : relative;
-}  .copyright{
-  color: white;
-  opacity: 1;
-  font-family: 'Candara', sans-serif;
-  margin-left: 48%;
-  margin-top:85%;
-  z-index: 1003;
-  position : relative;
-}  .copyright{
-  color: white;
-  opacity: 1;
-  font-family: 'Candara', sans-serif;
-  margin-left: 48%;
-  margin-top:85%;
-  z-index: 1003;
-  position : relative;
-}  .copyright{
-  color: white;
-  opacity: 1;
-  font-family: 'Candara', sans-serif;
-  margin-left: 48%;
-  margin-top:85%;
-  z-index: 1003;
-  position : relative;
-}  .copyright{
-  color: white;
-  opacity: 1;
-  font-family: 'Candara', sans-serif;
-  margin-left: 48%;
-  margin-top:85%;
-  z-index: 1003;
-  position : relative;
-}  .copyright{
-  color: white;
-  opacity: 1;
-  font-family: 'Candara', sans-serif;
-  margin-left: 48%;
-  margin-top:85%;
-  z-index: 1003;
-  position : relative;
-}
+} 
