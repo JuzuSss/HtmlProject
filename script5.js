@@ -1,6 +1,6 @@
 function scrollFunction() {
-    var windowHeight = window.innerHeight;
 
+    var windowHeight = window.innerHeight;
     var elementresume = document.getElementById("hiddenText");
     var elementPositionresume = elementresume.getBoundingClientRect().top;
     if (elementPositionresume < windowHeight) {

@@ -210,7 +210,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0;
     transition: opacity 2s ease-in-out;
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
 }
+
+
 
 .img1:hover {
     opacity: 1;
