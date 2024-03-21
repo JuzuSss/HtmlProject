@@ -5,6 +5,14 @@ body {
   animation: fadein 2s; 
   overflow-x: hidden;
   overflow-y: hidden;
+  width: 100vw;
+}
+
+
+@media screen and (max-width: 600px) {
+  .extrait1, .extrait2, .extrait3 {
+      width: 50%;
+  }
 }
 
 
@@ -731,8 +739,8 @@ body {
     color: white;
     opacity: 1;
     font-family: 'Candara', sans-serif;
-    margin-left: 47%;
-    margin-top:18%;
+    left: 207%;
+    top:-100%;
     z-index: 1003;
-    position : relative;
+    position : absolute;
 } 

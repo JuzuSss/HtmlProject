@@ -2,6 +2,13 @@ body {
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    width: 100vw;
+	overflow-x: hidden;
+}
+@media screen and (max-width: 600px) {
+    .extrait1, .extrait2, .extrait3 {
+        width: 50%;
+    }
 }
 
 
@@ -169,6 +176,7 @@ body {
     color: white;
     opacity: 1;
     font-family: 'Candara', sans-serif;
-    margin-left: 48%;
-    margin-top:20%;
+    left: 48%;
+    top:240%;
+	position: absolute;
 }

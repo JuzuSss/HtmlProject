@@ -2,6 +2,12 @@ body {
     background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    width: 100vw;
+}
+@media screen and (max-width: 600px) {
+    .extrait1, .extrait2, .extrait3 {
+        width: 50%;
+    }
 }
 
 .Btn {
@@ -404,10 +410,9 @@ body {
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
-    margin-top: 88%;
-    margin-left: 45.2%;
-    z-index: 1001;
-    position: relative;
+    top: 220%;
+    left: 45%;
+    position: absolute;
   }
   
   .shadow__btn3 {
@@ -428,8 +433,9 @@ body {
     color: white;
     opacity: 1;
     font-family: 'Candara', sans-serif;
-    margin-left: 48%;
-    margin-top:28%;
+    left: 48%;
+    top:280%;
+    position: absolute;
 }
 
 

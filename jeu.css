@@ -3,10 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 	overflow-x: hidden;
-
+    width: 100vw;
 }
-
-
+@media screen and (max-width: 600px) {
+    .extrait1, .extrait2, .extrait3 {
+        width: 50%;
+    }
+}
 
 #menu {
 	background: #000000;
@@ -931,8 +934,9 @@ body {
     color: white;
     opacity: 1;
     font-family: 'Candara', sans-serif;
-    margin-left: 48.5%;
-    margin-top:20%;
+    left: 48.5%;
+    top:650%;
+	position: absolute;
 }
 
 
