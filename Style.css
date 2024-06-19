@@ -12,6 +12,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    /* Menu mobile */
     #menu ul {
         background: #444444;
         position: absolute;
@@ -23,34 +24,22 @@ body {
         display: none;
         text-align: left;
     }
+    /* Autres ajustements pour le menu mobile et les éléments */
+    /* Ajoutez d'autres règles au besoin */
+}
 
-    #menu ul.sub-menus {
-        width: 100%; /* Ajustez la largeur selon l'espace disponible */
-        position: static; /* Changez la position pour le rendu mobile */
+@media screen and (max-width: 600px) {
+    /* Ajustements pour les éléments à largeur fixe comme .titre1, .soustitre1, etc. */
+    .titre1, .soustitre1 {
+        width: 80%; /* Ajustez la largeur en fonction de l'espace disponible sur mobile */
+        margin-left: 50%; /* Vous devrez peut-être ajuster le centrage */
+        transform: translate(-50%, -50%);
     }
 
-    #menu ul.sub-menus a {
-        padding-left: 30px; /* Ajustez l'espacement pour le texte des sous-menus */
-    }
-
-    #menu label {
-        display: block;
-        line-height: 45px;
-        text-align: center;
-        position: absolute;
-        left: 10px; /* Ajustez la position du bouton de menu */
-    }
-
-    #menu label:before {
-        content: "\2261"; /* Symbole du menu hamburger */
-    }
-
-    #menu input:checked + label:before {
-        content: "\00d7"; /* Symbole pour fermer le menu */
-    }
-
-    #menu input:checked ~ ul {
-        display: block; /* Affichage du menu déroulant lorsque le bouton est cliqué */
+    /* Ajustements pour les éléments à position absolue comme .content, .content2, etc. */
+    .content, .content2, .content3, .content4 {
+        margin-left: 50%; /* Ajustez la position en fonction de l'espace disponible */
+        transform: translate(-50%, -50%);
     }
 }
 
