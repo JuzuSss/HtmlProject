@@ -40,7 +40,7 @@ function scrollFunction() {
     
 
 
-     var images = ["Cyberpunk.jpg", "Japon.png", "Viking.jpg", "Pirate.jpg", "egypte.png"];
+     var images = ["egyptemap.png", "Sakura.png", "Viking.png", "piratemap.png"];
      var currentIndex = 0;
 
     document.getElementById("prevButton").addEventListener("click", function() {
