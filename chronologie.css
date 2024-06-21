@@ -236,13 +236,13 @@ body {
     font-family: 'Candara', sans-serif;
     padding: 1px;
     position: absolute;
-    top: 480%;
+    top: 430%;
     left: 20%;
 }
 
 
 
-.hidden-text1, .hidden-text2, .hidden-text3, .hidden-text4, .hidden-text5, .hidden-text6, .hidden-text7, .hidden-text8, .hidden-text9, .hidden-text10, .hidden-text11, 
+.hidden-text1, .hidden-text2, .hidden-text3, .hidden-text4, .hidden-text5, .hidden-text6, .hidden-text7, .hidden-text9, .hidden-text10, .hidden-text11, 
 .hidden-text12, .hidden-text13, .hidden-text14, .hidden-text15, .hidden-text16, .hidden-text17, .hidden-text18, .hidden-text19, .hidden-text20, .hidden-text21, 
 .hidden-text22, .hidden-text23, .hidden-text24, .hidden-text25, .hidden-text26, .hidden-text27, .hidden-text28, .hidden-text29, .hidden-text30,.hidden-text31, .hidden-text32, 
 .hidden-text33 , .hidden-text34, .hidden-text35, .hidden-text36, .hidden-text37, .hidden-text38, .hidden-text39, .hidden-text40, .hidden-text41, .hidden-text42, .hidden-text43{
@@ -250,7 +250,7 @@ body {
     transition: opacity 4s ease; 
 }
 
-.visible1, .visible2, .visible3, .visible4, .visible5, .visible6, .visible7, .visible8, .visible9, .visible10, .visible11, .visible12, .visible13, .visible14, .visible15, 
+.visible1, .visible2, .visible3, .visible4, .visible5, .visible6, .visible7, .visible9, .visible10, .visible11, .visible12, .visible13, .visible14, .visible15, 
 .visible16, .visible17, .visible18, .visible19, .visible20, .visible21, .visible22, .visible23, .visible24, .visible25, .visible26, .visible27, .visible28, .visible29, .visible30, 
 .visible31, .visible32, .visible33, .visible34, .visible35, .visible36, .visible37, .visible38, .visible39, .visible40, .visible41, .visible42, .visible43 {
     opacity: 1; 
